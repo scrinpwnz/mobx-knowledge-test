@@ -1,0 +1,18 @@
+.root {
+  box-shadow: inset 0 2px 4px -1px rgb(0 0 0 / 20%),
+  inset 0px  4px 5px 0px rgb(0 0 0 / 14%),
+  inset 0px 1px 10px 0px rgb(0 0 0 / 12%);
+  overflow: hidden;
+  border-radius: 16px;
+  display: flex;
+}
+
+.content {
+  padding: 8px;
+  overflow: auto;
+  width: 100%;
+}
+
+.error {
+  color: #932828;
+}

@@ -1,0 +1,16 @@
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.burgerInfo {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 8px;
+}
+
+.ingredientButtons {
+  display: flex;
+  gap: 8px;
+}

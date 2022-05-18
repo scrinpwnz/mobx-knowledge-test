@@ -1,0 +1,35 @@
+@import "src";
+
+.root {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.scenario {
+  display: flex;
+  gap: 8px;
+
+  select {
+    border-radius: 16px;
+    padding: 4px 8px;
+    font-size: 16px;
+    outline: none;
+    border: 1px solid $f5;
+  }
+}
+
+.animatronics {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.animatronic {
+  border-radius: 16px;
+  border: 1px solid $f5;
+  padding: 8px 16px;
+  display: flex;
+  flex-direction: column;
+  gap: 4px;
+}

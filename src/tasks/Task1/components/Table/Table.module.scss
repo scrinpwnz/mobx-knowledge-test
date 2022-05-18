@@ -1,0 +1,62 @@
+@import '../../../../index';
+
+.tableContainer {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 16px;
+}
+
+.tableTitle {
+  display: flex;
+  gap: 8px;
+  align-items: center;
+
+  input {
+    border-radius: 24px;
+    padding: 16px;
+    font-size: 24px;
+    outline: none;
+    border: 1px solid $f5;
+  }
+}
+
+.table {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  border-radius: 16px;
+  overflow: hidden;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  background: $f3;
+
+  &:nth-child(2n) {
+    background: $f4;
+  }
+
+  &__renderCount {
+    width: 10%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+}
+
+.cell {
+  width: 30%;
+  padding: 8px;
+  gap: 8px;
+  display: flex;
+  justify-content: center;
+
+  input {
+    padding: 0 8px;
+    border-radius: 8px;
+    border: none;
+    outline: none;
+  }
+}

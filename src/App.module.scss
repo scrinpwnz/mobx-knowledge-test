@@ -1,0 +1,35 @@
+@import 'src/index';
+
+.root {
+    width: 100vw;
+    height: 100vh;
+    overflow: auto;
+    background-color: #8BC6EC;
+    background-image: linear-gradient(135deg, #8BC6EC 0%, #9599E2 100%);
+}
+
+.wrapper {
+    margin: 0 auto;
+    width: 1024px;
+    height: 100vh;
+}
+
+.layout {
+    display: grid;
+    height: calc(100% - 32px);
+    padding: 16px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 72px 1fr;
+    grid-template-areas:
+        "header"
+        "content";
+    gap: 16px;
+}
+
+.header {
+    grid-area: header;
+}
+
+.content {
+    grid-area: content;
+}

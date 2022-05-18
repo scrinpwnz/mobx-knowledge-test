@@ -1,0 +1,13 @@
+.root {
+  display: flex;
+  gap: 8px;
+  align-items: flex-end;
+
+  & a {
+    text-decoration: none;
+  }
+
+  & a:global(.active) {
+    font-weight: bold;
+  }
+}
